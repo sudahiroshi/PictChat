@@ -12,7 +12,7 @@ public class PictChatServer {
 
 	PictChatServer() {
 		Frame f = new Frame( "PictChatServer" );
-		f.setSize( 640, 480 );
+		f.setBounds( 0, 0, 640, 480 );
 		f.addWindowListener( new WindowAdapter() {
 			@Override public void windowClosing( WindowEvent e ) {
 				System.exit( 0 );

@@ -15,7 +15,7 @@ public class PictChatClient {
 
 	PictChatClient(){
 		Frame f = new Frame( "PictChatClient" );
-		f.setSize(640,480);
+		f.setBounds( 680, 0, 640,480);
 		f.addWindowListener( new WindowAdapter() {
 			@Override public void windowClosing( WindowEvent e ) {
 				try {
